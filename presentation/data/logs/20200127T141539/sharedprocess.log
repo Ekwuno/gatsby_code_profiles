@@ -1,0 +1,8 @@
+[2020-01-27 14:15:43.407] [sharedprocess] [info] main {"machineId":"91dc73aab5cd64aa5e281ee77129b73ce0adec7f608b10eadf357c6b9266bfe9","windowId":2}
+[2020-01-27 14:16:23.404] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-01-27 14:17:06.350] [sharedprocess] [info] Installing extension: sdras.night-owl
+[2020-01-27 14:17:10.230] [sharedprocess] [info] Downloaded extension: sdras.night-owl /var/folders/g2/blw90trs18980w660l1xhs0c0000gn/T/0d305f90-87cc-4d0d-962c-1cc5e10452b2
+[2020-01-27 14:17:10.315] [sharedprocess] [info] Extracted extension to /Users/obinnaspeaks/gatsby_code_profiles/presentation/exts/.sdras.night-owl-1.1.3: sdras.night-owl
+[2020-01-27 14:17:10.316] [sharedprocess] [info] Renamed to /Users/obinnaspeaks/gatsby_code_profiles/presentation/exts/sdras.night-owl-1.1.3
+[2020-01-27 14:17:10.317] [sharedprocess] [info] Installation completed. sdras.night-owl
+[2020-01-27 14:17:10.330] [sharedprocess] [info] Extensions installed successfully: sdras.night-owl
