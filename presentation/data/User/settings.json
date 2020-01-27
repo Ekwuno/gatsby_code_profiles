@@ -1,4 +1,19 @@
 {
-    "workbench.colorTheme": "Night Owl",
-    "editor.fontSize": 19
+  "editor.fontFamily": "Dank Mono, Operator Mono",
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": false,
+  "editor.parameterHints": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.hover": false,
+  "editor.fontLigatures": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  "workbench.colorTheme": "Night Owl",
+  "editor.fontSize": 19
 }
