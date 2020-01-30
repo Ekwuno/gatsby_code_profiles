@@ -2,6 +2,8 @@
     "telemetry.machineId": "91dc73aab5cd64aa5e281ee77129b73ce0adec7f608b10eadf357c6b9266bfe9",
     "openedPathsList": {
         "workspaces3": [
+            "file:///Users/obinnaspeaks/Documents/theme-demo",
+            "file:///Users/obinnaspeaks/Documents/Algorithms",
             "file:///Users/obinnaspeaks/gatsby_code_profiles",
             "file:///Users/obinnaspeaks/Documents/Time"
         ],
@@ -46,7 +48,29 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/Users/obinnaspeaks/gatsby_code_profiles",
+                                        "fsPath": "/Users/obinnaspeaks/Documents/theme-demo",
+                                        "external": "file:///Users/obinnaspeaks/Documents/theme-demo",
+                                        "path": "/Users/obinnaspeaks/Documents/theme-demo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/theme-demo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///Users/obinnaspeaks/Documents/Algorithms",
+                                        "path": "/Users/obinnaspeaks/Documents/Algorithms",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Algorithms"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///Users/obinnaspeaks/gatsby_code_profiles",
                                         "path": "/Users/obinnaspeaks/gatsby_code_profiles",
                                         "scheme": "file"
@@ -98,8 +122,7 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
@@ -122,8 +145,7 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -502,8 +524,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1398,6 +1419,19 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#011627",
-    "pickerWorkingDir": "/Users/obinnaspeaks/Documents"
+    "themeBackground": "#12131f",
+    "pickerWorkingDir": "/Users/obinnaspeaks/Documents",
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/Users/obinnaspeaks/gatsby_code_profiles/presentation/data/Backups/1580322343691",
+            "uiState": {
+                "mode": 1,
+                "x": 208,
+                "y": 66,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
 }

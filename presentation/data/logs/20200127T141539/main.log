@@ -1,3 +1,24 @@
 [2020-01-27 14:15:39.975] [main] [info] update#setState idle
 [2020-01-27 14:16:09.975] [main] [info] update#setState checking for updates
 [2020-01-27 14:16:11.390] [main] [info] update#setState idle
+[2020-01-27 15:16:10.083] [main] [info] update#setState checking for updates
+[2020-01-27 15:16:11.492] [main] [info] update#setState idle
+[2020-01-27 16:16:10.194] [main] [info] update#setState checking for updates
+[2020-01-27 16:16:12.460] [main] [info] update#setState idle
+[2020-01-27 17:16:10.293] [main] [info] update#setState checking for updates
+[2020-01-27 17:16:11.656] [main] [info] update#setState idle
+[2020-01-27 18:27:47.997] [main] [info] update#setState checking for updates
+[2020-01-27 18:27:49.426] [main] [info] update#setState idle
+[2020-01-27 19:27:48.119] [main] [info] update#setState checking for updates
+[2020-01-27 19:27:51.278] [main] [info] update#setState idle
+[2020-01-27 22:18:40.154] [main] [info] update#setState checking for updates
+[2020-01-27 22:18:40.179] [main] [error] UpdateService error: The internet connection appears to be offline.
+[2020-01-27 22:18:40.179] [main] [info] update#setState idle
+[2020-01-28 00:58:52.825] [main] [info] update#setState checking for updates
+[2020-01-28 00:58:54.209] [main] [info] update#setState idle
+[2020-01-28 01:58:52.908] [main] [info] update#setState checking for updates
+[2020-01-28 01:58:55.571] [main] [info] update#setState idle
+[2020-01-28 12:58:11.578] [main] [info] update#setState checking for updates
+[2020-01-28 12:58:13.269] [main] [info] update#setState idle
+[2020-01-28 13:59:21.499] [main] [info] update#setState checking for updates
+[2020-01-28 13:59:22.877] [main] [info] update#setState idle

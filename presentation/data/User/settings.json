@@ -1,4 +1,29 @@
 {
-    "workbench.colorTheme": "Night Owl",
-    "editor.fontSize": 19
+  "editor.fontFamily": "monospace",
+  "editor.tabSize": 2,
+  "editor.quickSuggestions": false,
+  "editor.parameterHints": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.hover": false,
+  "editor.fontLigatures": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "none",
+  "prettier.arrowParens": "avoid",
+  "editor.fontSize": 19,
+  "workbench.colorTheme": "Shades of Purple",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#000916",
+    "editor.background": "#12131f", 
+    "sideBar.background": "#12131ff8",
+    "sideBarTitle.foreground": "#464343",
+    "sideBar.border": "#2e134d",
+    "editorLineNumber.foreground":"#7f7e80",
+    "sideBar.foreground": "#8BADC1",
+  },
+ 
 }

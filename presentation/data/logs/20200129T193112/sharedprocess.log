@@ -1,0 +1,8 @@
+[2020-01-29 19:31:15.865] [sharedprocess] [info] main {"machineId":"91dc73aab5cd64aa5e281ee77129b73ce0adec7f608b10eadf357c6b9266bfe9","windowId":2}
+[2020-01-29 19:31:55.883] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-01-30 16:06:41.959] [sharedprocess] [info] Installing extension: ahmadawais.shades-of-purple
+[2020-01-30 16:06:43.527] [sharedprocess] [info] Downloaded extension: ahmadawais.shades-of-purple /var/folders/g2/blw90trs18980w660l1xhs0c0000gn/T/895147d0-edea-45dd-baae-f3e7a52c6d7e
+[2020-01-30 16:06:43.552] [sharedprocess] [info] Extracted extension to /Users/obinnaspeaks/gatsby_code_profiles/presentation/exts/.ahmadawais.shades-of-purple-6.3.0: ahmadawais.shades-of-purple
+[2020-01-30 16:06:43.553] [sharedprocess] [info] Renamed to /Users/obinnaspeaks/gatsby_code_profiles/presentation/exts/ahmadawais.shades-of-purple-6.3.0
+[2020-01-30 16:06:43.553] [sharedprocess] [info] Installation completed. ahmadawais.shades-of-purple
+[2020-01-30 16:06:43.566] [sharedprocess] [info] Extensions installed successfully: ahmadawais.shades-of-purple
