@@ -1,23 +1,43 @@
-# Setting up code-profiles
+---
+title: Gatsby Code Profile 
+---
 
- - Clone repository (I recommed to your home directory)
+# What is a code profile ? 
+A code profile is essentially a custom `settings.json` configuration that is shareable  and resuseable across different instances of VScode. It is mostly used to avoid repetition that comes with resetting the default `settings.json` of a VScode environment when you want to say, bump up the font-size for a screencast or feel like using a theme with other custom settings.  
 
-Each folder in this repo represents one of those directories, which I refer to as "profiles" for lack of a better term.
+> You can also customize which extensions load per code profile. 
 
-> Right now we only have the presentation profile.
+# Setting up Gatsby_code_profiles
 
-# Set up alias
+To set up the Gatbsy code profile you would have to follow these steps:
 
-Remembering the command to lunch the prfiles can bring a lot of cognitive load, so I used an alias in  my .zshrc.
+ 1. Clone repository into your root directory .
+ ```shell 
+ git clone https://github.com/Ekwuno/gatsby_code_profiles.git
+ ```
+ Then change directory into the code profile.
+ ```shell 
+ git clone cd gatsby_code_profiles 
+ ```
+ In gatsby_code_profiles directory exists the presentation folder which houses the custom settings. 
+ 
+ > Multiple sub folders can exist for code profiles and you would have to change directory to access the setting.
+ 
+ 
+ 2. Set up alias
 
-For example, this repo lives in ~/gatsby_code_profiles and the command to launch my presentation settings is:
+Aliases are helpful for shortening commands and also help to reduce the cognitive load of learning a really long command and having to type it everytime. Vscode has a command line alias to [launch from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) and this comes 
+in handy.
+
+For example, this repo lives in ~/gatsby_code_profiles and the command to launch my presentation settings and extensions is:
 
 ```code --extensions-dir ~/gatsby_code_profiles/presentation/exts --user-data-dir ~/gatsby_code_profiles/presentation/data```
 
-The alias in my .zshrc looks like:
+The alias in the .zshrc file looks like this :
 
 `alias gatsby-teach="code --extensions-dir ~/gatsby_code_profiles/presentation/exts --user-data-dir ~/gatsby_code_profiles/presentation/data"
 
+> Now anytime you want to lunch VScode with the custom settings all you have to do it run gatsby-teach {name of directory}
 
 # Lunching Profile
 
