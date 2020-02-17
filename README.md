@@ -1,6 +1,9 @@
 ---
 title: Gatsby Code Profile 
 ---
+# Gatsby Code Profile
+
+This is a custom code profile built for [GatsbyJS](gatsbyjs.org) code Demos, it makes us a Gatsby color scheme and a variation of [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) created by [Ahmad Awais](https://marketplace.visualstudio.com/publishers/ahmadawais)
 
 # What is a code profile ? 
 A code profile is essentially a custom `settings.json` configuration that is shareable  and resuseable across different instances of VScode. It is mostly used to avoid repetition that comes with resetting the default `settings.json` of a VScode environment when you want to say, bump up the font-size for a screencast or feel like using a theme with other custom settings.  
