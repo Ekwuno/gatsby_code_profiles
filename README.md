@@ -1,56 +1,49 @@
----
-title: Gatsby Code Profile 
----
-# Gatsby Code Profile
+# Gatsby Visual Studio Code Profile
 
-This is a custom code profile built for [GatsbyJS](gatsbyjs.org) code Demos, it makes us a Gatsby color scheme and a variation of [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) created by [Ahmad Awais](https://marketplace.visualstudio.com/publishers/ahmadawais)
+This is a custom VS Code profile built for [Gatsby](gatsbyjs.org) code demos and docs, providing an accessible Gatsby color scheme. 
 
-# What is a code profile ? 
-A code profile is essentially a custom `settings.json` configuration that is shareable  and resuseable across different instances of VScode. It is mostly used to avoid repetition that comes with resetting the default `settings.json` of a VScode environment when you want to say, bump up the font-size for a screencast or feel like using a theme with other custom settings.  
+This theme is a variation of [Shades of Purple](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple) created by [Ahmad Awais](https://marketplace.visualstudio.com/publishers/ahmadawais).
 
-> You can also customize which extensions load per code profile. 
+## What is a code profile? 
 
-# Setting up Gatsby_code_profiles
+A code profile is a custom `settings.json` configuration that's shareable and reusable across different instances of VS Code. It is mostly used to avoid repetition that comes with resetting the default `settings.json` of a VS Code environment when you want to say, bump up the font-size for a screencast or feel like using a theme with other custom settings. 
 
-To set up the Gatbsy code profile you would have to follow these steps:
+For the Gatsby docs, a VS Code profile helps us create consistent learning materials.
 
- 1. Clone repository into your root directory .
- ```shell 
+## Setting up Gatsby_code_profiles
+
+To set up the Gatsby code profile, follow these steps:
+
+ 1. Clone the repository **into your computer's root directory**.
+
+ ```shell
+ cd ~/
  git clone https://github.com/Ekwuno/gatsby_code_profiles.git
  ```
- Then change directory into the code profile.
+ Then change directories into the code profile.
  ```shell 
- git clone cd gatsby_code_profiles 
+ cd gatsby_code_profiles 
  ```
- In gatsby_code_profiles directory exists the presentation folder which houses the custom settings. 
+ In the `gatsby_code_profiles` directory exists the presentation folder which houses the custom settings.  
  
- > Multiple sub folders can exist for code profiles and you would have to change directory to access the setting.
- 
- 
- 2. Set up alias
+ 2. Set up an alias
 
-Aliases are helpful for shortening commands and also help to reduce the cognitive load of learning a really long command and having to type it everytime. Vscode has a command line alias to [launch from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) and this comes 
-in handy.
+To prevent from having to type a lengthy launch command every time, you'll want to set up an alias for your Terminal to launch VS Code with these settings and extensions from `~/gatsby_code_profiles`.
 
-For example, this repo lives in ~/gatsby_code_profiles and the command to launch my presentation settings and extensions is:
+To set an alias for this command using [Oh My Zsh](https://ohmyz.sh/), paste this command into your `.zshrc` file:
 
-```code --extensions-dir ~/gatsby_code_profiles/presentation/exts --user-data-dir ~/gatsby_code_profiles/presentation/data```
+```alias gatsby-teach="code --extensions-dir ~/gatsby_code_profiles/presentation/exts --user-data-dir ~/gatsby_code_profiles/presentation/data"```
 
-The alias in the .zshrc file looks like this :
+> Now anytime you want to launch VS Code with the custom settings, you can run `gatsby-teach {name of directory}`.
 
-`alias gatsby-teach="code --extensions-dir ~/gatsby_code_profiles/presentation/exts --user-data-dir ~/gatsby_code_profiles/presentation/data"
+## Launching the profile
 
-> Now anytime you want to lunch VScode with the custom settings all you have to do it run gatsby-teach {name of directory}
+Restart your terminal and test out the command. You can include a project path to open it with that profile, or leave the directory blank to start a new project:
 
-# Lunching Profile
+```gatsby-teach ./some-demo-directory```
 
+## Adding more profiles
 
-Restart your terminal and test out the command. You can include a project path to open it with that profile , or leave the directory blank to start a new project:
-`gatsby-teach ./some-demo-directory`
-
-
-### More profiles
-
-As more profiles are added the Name of profile will aslo be updated 
+As more VS Code profiles are added, the `Name of profile` will also be updated:
 
 `code --extensions-dir ~/gatsby_code_profiles/{Name of profile}/exts --user-data-dir ~/gatsby_code_profiles/presentation/data`
