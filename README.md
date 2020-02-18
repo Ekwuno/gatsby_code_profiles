@@ -28,7 +28,9 @@ To set up the Gatsby code profile, follow these steps:
  
  2. Set up an alias
 
-To prevent from having to type a lengthy launch command every time, you'll want to set up an alias for your Terminal to launch VS Code with these settings and extensions from `~/gatsby_code_profiles`.
+To prevent from having to type a lengthy launch command every time, you'll want to set up an [alias](https://opensource.com/article/17/5/introduction-alias-command-line-tool) for your Terminal to launch VS Code with these settings and extensions from `~/gatsby_code_profiles`.
+
+> Vscode has a command line alias to [launch from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
 
 To set an alias for this command using [Oh My Zsh](https://ohmyz.sh/), paste this command into your `.zshrc` file:
 
